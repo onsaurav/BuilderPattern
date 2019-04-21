@@ -1,0 +1,11 @@
+﻿<Window x:Class="BuilderPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Builder Pattern" Height="506.41" Width="863.462" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="67,431,0,0" Click="Button_Click" />
+
+        <StackPanel  Name="stkMain" HorizontalAlignment="Left" Height="380" VerticalAlignment="Top" Width="724" Margin="67,32,0,0"/>
+       
+    </Grid>
+</Window>
